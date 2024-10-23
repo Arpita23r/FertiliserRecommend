@@ -32,7 +32,7 @@ class FertilizerInput(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Fertilizer Recommendation API! Go to /docs for API documentation."}
+    return {"message": "Welcome to the Fertilizer Recommendation API!"}
 
 @app.post("/recommend")
 def recommend_fertilizer(input: FertilizerInput):
