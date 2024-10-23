@@ -1,12 +1,6 @@
-streamlit
-pandas
-matplotlib
-seaborn
-fastapi
-uvicorn
+flask
+flask-cors
+joblib
+pydantic
 numpy
 scikit-learn
-pandas
-gunicorn
-Flask
-Flask-CORS
